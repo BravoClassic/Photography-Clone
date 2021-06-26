@@ -19,8 +19,8 @@ This is a photography frontend clone. I am creating a design I found online to p
 
 #### How-it-works Block
 - In this block will be the how-it-works_primary-text(h2) and how-it-works_summary-text(p)
-- There will be 3 how-it-works_card(div)
-- In each how-it-work_card will be an how-it-works_card_icon, how-it-works_card_card-title(h3) and how-it-works_card_card-text(p). NB: how-it-works_card_icon will be in a how-it-works_card_card-icon-container
+- There will be 3 how-it-works_container_card(div)
+- In each how-it-work_card will be an how-it-works_container_card_icon, how-it-works_container_card_card-title(h3) and how-it-works_container_card_card-text(p). NB: how-it-works_container_card_icon will be in a how-it-works_container_card_card-icon-container
 
 #### See-our-examples Block
 - Here there will be see-our-examples_primary-text(h2) and see-our-examples_summary-text

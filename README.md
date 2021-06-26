@@ -34,7 +34,7 @@ NB: see-our-examples_project will be in the see-our-examples_project-grid
 
 #### Loved-by Block
 - here is the loved-by_primary-text and loved-by_summary-text
-- 6 loved-by_testimonials with loved-by_testimonials_img and loved-by_testominals_title, loved-by_testimonials_text, loved-by_testimonials_name and loved-by_testmonials_stars
+- 6 loved-by_testimonials with loved-by_testimonials_img and loved-by_testominals_recommend, loved-by_testimonials_text, loved-by_testimonials_name and loved-by_testmonials_stars
 
 #### free-trial block
 - free-trial_primary-text, free-trial_summary-text, free-trial_btn, free-trial_help-text

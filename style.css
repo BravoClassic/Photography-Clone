@@ -42,13 +42,16 @@ main{
 .wrapper_header{
     width: 100%;
     height: 3.5rem;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3.5em
+    padding: 0 3.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .wrapper_header_nav{
@@ -71,4 +74,93 @@ main{
 .wrapper_header_nav_links_link{
     width: 25%;
     padding: 0.5em;
+}
+
+.wrapper_header_nav_links_link:first-child{
+    display: none;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.wrapper_header_nav_links_link:hover{
+    color:#febf02;
+    background-color: white;
+}
+
+
+/* Hero section */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url('hero-image-large.jpg') no-repeat fixed center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.7;
+    align-items: center;
+    color: white;
+}
+
+.hero_hero-text{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 1em;
+}
+
+
+.hero_hero-summary-text{
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.hero_hero-btn{
+    background-color: #febf02;
+    padding: 1em 1.5em;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+.hero_hero-btn:hover{
+    background-color: #ffd34b;
+}
+
+.hero_hero-info-text{
+    font-size: 0.4rem;
+    font-weight: lighter;
+}
+
+.hero > *:not(h1) {
+    margin-bottom: 1em;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .wrapper_header_nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: auto;
+        margin-right: 3.5em;
+    }
+    .wrapper_header_nav_links{
+        flex-direction: column;
+    }
+
+    .wrapper_header_nav_links_link:first-child{
+        display: inherit;
+    }
+    .wrapper_header_nav_links_link{
+        width: 100%;
+        background-color: #febf02;
+    }
+    .wrapper_header_nav_links_link:first-child{
+        background-color: transparent;
+    }
 }

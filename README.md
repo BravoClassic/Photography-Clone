@@ -30,7 +30,7 @@ NB: see-our-examples_project will be in the see-our-examples_project-grid
 
 #### Our benefits Block
 - Here is the our-benefits_primary-text and our-benefits_summary text
-- Our-benefits_info containg 5 our-benefits_info_item
+- Our-benefits_info containing 5 our-benefits_info_item
 
 #### Loved-by Block
 - here is the love-by_primary-text and love-by_summary-text

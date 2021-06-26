@@ -33,8 +33,8 @@ NB: see-our-examples_project will be in the see-our-examples_project-grid
 - Our-benefits_info containing 5 our-benefits_info_item
 
 #### Loved-by Block
-- here is the love-by_primary-text and love-by_summary-text
-- 6 love-by_testimonials with love-by_testimonials_img and love-by_testominals_title, love-by_testimonials_text, love-by_testimonials_name and love-by_testmonials_stars
+- here is the loved-by_primary-text and loved-by_summary-text
+- 6 loved-by_testimonials with loved-by_testimonials_img and loved-by_testominals_title, loved-by_testimonials_text, loved-by_testimonials_name and loved-by_testmonials_stars
 
 #### free-trial block
 - free-trial_primary-text, free-trial_summary-text, free-trial_btn, free-trial_help-text

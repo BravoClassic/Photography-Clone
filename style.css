@@ -30,6 +30,11 @@ ul{
     border: 1.5px solid white !important;
 }
 
+img{
+    width:30%;
+    height: 30%;
+}
+
 /* Main Block */
 main{
     width: 100%;

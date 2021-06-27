@@ -467,7 +467,7 @@ transition: all 0.5s 0s ease-in-out;
 }
 
 .loved-by_testimonals_client_website, .loved-by_testimonals_client_recommend > *{
-    font-size: 0.8em;
+    font-size: 0.5rem;
 }
 .loved-by_testimonal_client_summary-text{
     line-height: 1.7;
@@ -482,6 +482,30 @@ transition: all 0.5s 0s ease-in-out;
 }
 .loved-by_testimonal_client_recommend_percent{
     width: fit-content;
+}
+
+/* Free Trial Section */
+.free-trial{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 3.5em;
+    justify-content: center;
+    color: white;
+    background-color: #ffbf05;
+    align-items: center;
+    line-height: 1.7;
+}
+
+.free-trial_primary-text{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.free-trial_btn{
+    padding: 1em;
+    background-color: #1c1c1c;
+    margin: 1.5em 0;
 }
 
 @media screen and (max-width:1024px) {

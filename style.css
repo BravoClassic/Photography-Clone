@@ -362,6 +362,11 @@ transition: all 0.5s 0s ease-in-out;
     flex-direction: row;
     width: 25em;
     margin-bottom: 2em;
+    cursor:default
+}
+
+.our-benefits_info_item:hover .our-benefits_info_item_icon-container{
+    background-color:#ffb607
 }
 
 .our-benefits_info_item:nth-child(2){
@@ -394,6 +399,89 @@ transition: all 0.5s 0s ease-in-out;
 
 .our-benefits_info_item_details h3{
     margin-bottom: 1em;
+}
+
+.our-benefits_info_item_details_summary-text{
+    line-height: 1.5;
+}
+
+/* Loved-By Section */
+.loved-by{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 3.5em;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background: url('loved-by-image-large.jpg') no-repeat scroll bottom left;
+}
+
+.loved-by_primary-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+.loved-by_primary-text span{
+    color:#fac218
+}
+
+
+.loved-by_summary-text{
+    width: 60%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.loved-by_testimonals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 2em 0;
+   
+}
+
+.loved-by_testimonals_item{
+    width: 50%;
+    padding: 1.2em 1.7em;
+    background-color: white;
+    color: black;
+}
+
+.loved-by_testimonals_img{
+    float: left;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.loved-by_testimonals_client{
+    float: right;
+    width: 80%;
+}
+.loved-by_testimonals_client_name{
+    color:#f7d460
+}
+
+.loved-by_testimonals_client_website, .loved-by_testimonals_client_recommend > *{
+    font-size: 0.8em;
+}
+.loved-by_testimonal_client_summary-text{
+    line-height: 1.7;
+    margin: 1.5em 0;
+}
+.loved-by_testimonals_client_recommend{
+    border-top: 1px solid rgba(4, 4, 4, 0.137);
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.loved-by_testimonal_client_recommend_percent{
+    width: fit-content;
 }
 
 @media screen and (max-width:1024px) {

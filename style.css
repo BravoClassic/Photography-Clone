@@ -655,7 +655,17 @@ transition: all 0.5s 0s ease-in-out;
     display: inline-block;
 }
 
-@media screen and (max-width:1024px) {
+
+@media screen and (max-width:1024px){
+    .wrapper_header_nav{
+        width: 80%; 
+    }
+    .see-our-examples_project-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:720px) {
     .wrapper_header_nav{
         position: absolute;
         top: 0;
